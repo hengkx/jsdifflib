@@ -411,3 +411,9 @@ var difflib = {
 	}
 };
 
+module.exports = function (base, newTxt) {
+    var baseTextLines = difflib.stringAsLines(base);
+    var newTextLines = difflib.stringAsLines(newTxt);
+    var sm = new difflib.SequenceMatcher(baseTextLines, newTextLines);
+    return { baseTextLines, newTextLines, result: sm.get_opcodes() };
+}

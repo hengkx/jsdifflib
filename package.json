@@ -1,0 +1,19 @@
+{
+  "name": "jsdifflib",
+  "version": "1.0.0",
+  "description": "== jsdifflib - A Javascript visual diff tool & library",
+  "main": "difflib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hengkx/jsdifflib.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hengkx/jsdifflib/issues"
+  },
+  "homepage": "https://github.com/hengkx/jsdifflib#readme"
+}
